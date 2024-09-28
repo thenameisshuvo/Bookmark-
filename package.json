@@ -1,16 +1,20 @@
 {
-  "name": "my-project",
+  "name": "bookmark",
   "version": "1.0.0",
+  "main": "script.js",
   "scripts": {
-    "dev": "npm run build-json && vite", 
-    "build": "vite build",                
-    "start": "vite preview",              
-    "lint": "eslint . --fix",             
-    "test": "jest",                       
-    "clean": "rimraf dist",         
-    "build-json": "node build.js"        
+    "start": "vite",
+    "build": "vite build"
   },
-  "dependencies": {
-    "vite": "^4.0.0"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "eslint": "^9.10.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.12"
   }
 }
